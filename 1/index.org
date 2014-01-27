@@ -10,7 +10,7 @@ Information Visualization project 1
   - [[https://www.icloud.com/iw/#numbers/BAIowpIkL3twMsXGkmiBG9m8lbtN8SiRb8yE/IVIS14_Project1_data][Numbers sheet (iCloud)]]
   - [[./IVIS14_Project1.numbers][Numbers sheet]]
   - [[./IVIS14_Project1.xlsx][Excel]]
-  - [[IVIS14_Project1.pdf][PDF]]
+  - [[./IVIS14_Project1.pdf][PDF]]
     
 * Splunk Search
   I used a [[http://splunk.com][Splunk]] search to find out a bit more about the people that
