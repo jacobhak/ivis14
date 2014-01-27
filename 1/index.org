@@ -20,4 +20,4 @@ Information Visualization project 1
   their skills). I also searched and generated some other
   visualizations that wasn't really worth keeping.
 
-  The Search results are [[here(pdf)][]]
+  The Search results are [[./ProgrammingMusicSearch.pdf][here (pdf)]]
