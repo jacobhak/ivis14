@@ -7,11 +7,11 @@ Information Visualization project 1
 
   I built groups based on the skills and interests of the
   subjects. The sheet with the results is called "Grouping".
-  - [[Numbers sheet (iCloud)][]
-  - [[Numbers sheet][]]
-  - [[Excel][]]
-  - [[PDF][]]
-  
+  - [[https://www.icloud.com/iw/#numbers/BAIowpIkL3twMsXGkmiBG9m8lbtN8SiRb8yE/IVIS14_Project1_data][Numbers sheet (iCloud)]]
+  - [[./IVIS14_Project1.numbers][Numbers sheet]]
+  - [[./IVIS14_Project1.xlsx][Excel]]
+  - [[IVIS14_Project1.pdf][PDF]]
+    
 * Splunk Search
   I used a [[http://splunk.com][Splunk]] search to find out a bit more about the people that
   had listed two of the most popular hobbies/interests, Programming
