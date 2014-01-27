@@ -1,18 +1,18 @@
 Information Visualization project 1
 
 * Numbers
-  I used Numbers (Apple's version of spreadsheets) extensively. A
-  large chunk of the work went into building different tables and
-  battling with the charting system.
+  I used Numbers extensively. A large chunk of the work went into
+  building different tables and battling with the charting system.
 
   I built groups based on the skills and interests of the
   subjects. The sheet with the results is called "Grouping".
   - [[https://www.icloud.com/iw/#numbers/BAIowpIkL3twMsXGkmiBG9m8lbtN8SiRb8yE/IVIS14_Project1_data][Numbers sheet (iCloud)]]
-  - [[./IVIS14_Project1.numbers][Numbers sheet]]
+  - [[./IVIS14_Project1.zip][Numbers sheet]]
   - [[./IVIS14_Project1.xlsx][Excel]]
   - [[./IVIS14_Project1.pdf][PDF]]
     
 * Splunk Search
+
   I used a [[http://splunk.com][Splunk]] search to find out a bit more about the people that
   had listed two of the most popular hobbies/interests, Programming
   and Music. I found that subjects 3, 14 and 15 had these two
@@ -21,3 +21,19 @@ Information Visualization project 1
   visualizations that wasn't really worth keeping.
 
   The Search results are [[./ProgrammingMusicSearch.pdf][here (pdf)]]
+
+#+AUTHOR:    Jacob Håkansson
+#+EMAIL:     jacobhak@kth.se
+#+DATE:      2014-01-27
+#+DESCRIPTION:
+#+KEYWORDS:
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:nil toc:nil \n:nil @:t ::nil |:t ^:t -:t f:t *:t <:t email:t
+#+OPTIONS:   TeX:t LaTeX:t skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+INFOJS_OPT: view:nil toc:nil ltoc:t mouse:underline buttons:0 path:http://orgmode.org/org-info.js
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+LINK_UP:   
+#+LINK_HOME: 
+#+XSLT:
+#+HEADER: <link rel="stylesheet" type="text/css" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" />
