@@ -10,6 +10,11 @@ Information Visualization project 1
   - [[./IVIS14_Project1.zip][Numbers sheet]]
   - [[./IVIS14_Project1.xlsx][Excel]]
   - [[./IVIS14_Project1.pdf][PDF]]
+
+  If you look at the PDF-version, be aware that the "Grouping" sheet
+  is on page 4. All the above versions contains project history,
+  meaning that much of my experiments is still left intact in the
+  other sheets/pages.
     
 * Splunk Search
 
