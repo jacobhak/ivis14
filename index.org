@@ -1,0 +1,18 @@
+Information Visualization project 1
+
+* Numbers
+  I used Numbers (Apple's version of spreadsheets) extensively.  A
+  large chunk of the work went into building different tables and
+  battling with the charting system.
+
+  I built groups based on the skills and interests of the subjects and
+  weighed in their interests. The sheet with the results is called "Grouping"
+  
+* Splunk Search
+  I used a [[http://splunk.com][Splunk]] search to find out a bit more about the people that
+  had listed two of the most popular hobbies/interests, Programming
+  and Music. I found that subjects 3, 14 and 15 had these two
+  interests in common. They may be an excellent group (disregarding
+  their skills).
+
+  The Search results are [[here(pdf)][]]
