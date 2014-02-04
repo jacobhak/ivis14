@@ -1,0 +1,47 @@
+_Are happiness and trust in other people related to education level?_
+***** Overview
+| <25>                      |        |
+| All respondents of all countries |        |
+|---------------------------+--------|
+| Most people can be trusted | 25.1%  |
+| Can't be to careful       | 71.0%  |
+|---------------------------+--------|
+| Very happy                | 27.7 % |
+| Quite happy               | 53.4 % |
+| Not very happy            | 15.0 % |
+| Not at all happy          | 2.9 %  |
+|---------------------------+--------|
+| No formal education       | 8.4 %  |
+| Inadequately completed elementary education | 7.6 %  |
+| Completed (compulsory) elementary education | 15.0 % |
+| Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification | 7.1 %  |
+| Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification | 16.9 % |
+| Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification | 7.4 %  |
+| Complete secondary: university-preparatory type/Full secondary, maturity level certificate | 16.6 % |
+| Some university without degree/Higher education - lower-level tertiary certificate | 6.5 %  |
+| University with degree/Higher education - upper-level tertiary certificate | 13.8 % |
+
+***** Correlate
+| <15>            | Total  | Very happy                 | Quite happy          | Not very happy | Not at all happy |
+|-----------------+--------+----------------------------+----------------------+----------------+------------------|
+| No formal education | 8.4 %  | 6.4 %                      | 7.9 %                | 12.3 %         | 16.9 %           |
+| Inadequately completed elementary education | 7.6 %  | 6.4 %                      | 7.0 %                | 10.9 %         | 12.9 %           |
+| Completed (compulsory) elementary education | 15.1 % | 14.6 %                     | 14.7 %               | 16.9 %         | 17.6 %           |
+| Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification | 7.1 %  | 7.0 %                      | 7.2 %                | 7.3 %          | 5.8 %            |
+| Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification | 17.1 % | 17.3 %                     | 17.2 %               | 17.1 %         | 11.2 %           |
+| Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification | 7.4 %  | 7.6 %                      | 7.4 %                | 7.1 %          | 8.8 %            |
+| Complete secondary: university-preparatory type/Full secondary, maturity level certificate | 16.8 % | 18.0 %                     | 16.8 %               | 15.1 %         | 13.4 %           |
+| Some university without degree/Higher education - lower-level tertiary certificate | 6.6 %  | 7.4 %                      | 6.9 %                | 4.6 %          | 4.8 %            |
+| University with degree/Higher education - upper-level tertiary certificate | 13.9 % | 15.4 %                     | 14.8 %               | 8.6 %          | 8.6 %            |
+|-----------------+--------+----------------------------+----------------------+----------------+------------------|
+|                 | Total  | Most people can be trusted | Can't be too careful |                |                  |
+|-----------------+--------+----------------------------+----------------------+----------------+------------------|
+| No formal education | 8.2 %  | 7.4 %                      | 8.5 %                |                |                  |
+| Inadequately completed elementary education | 7.6 %  | 5.5 %                      | 8.4 %                |                |                  |
+| Completed (compulsory) elementary education | 15.2 % | 13.4 %                     | 15.8 %               |                |                  |
+| Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification | 7.1 %  | 6.0 %                      | 7.5 %                |                |                  |
+| Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification | 17.1 % | 16.3 %                     | 17.4 %               |                |                  |
+| Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification | 7.5 %  | 7.6 %                      | 7.5 %                |                |                  |
+| Complete secondary: university-preparatory type/Full secondary, maturity level certificate | 16.9 % | 16.4 %                     | 17.1 %               |                |                  |
+| Some university without degree/Higher education - lower-level tertiary certificate | 6.6 %  | 8.6 %                      | 6.0 %                |                |                  |
+| University with degree/Higher education - upper-level tertiary certificate | 13.8 % | 19.0 %                     | 12.0 %               |                |                  |
