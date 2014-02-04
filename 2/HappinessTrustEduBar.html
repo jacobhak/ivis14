@@ -1,0 +1,306 @@
+<html>
+<style>
+/*----------------------------------------------------------------------*/
+/* STAT: Estilos para resultados de estadísticas MARGINALES             */ 
+/*----------------------------------------------------------------------*/
+
+
+.StatMarTabla {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:white;
+	table-layout:fixed;
+}
+.StatMarTitSupIzq {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-right-color: #8980A7;
+	border-bottom-color: #8980A7;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.StatMarTitSupVar {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	background-color: #E8E8E8;
+	font-weight: bold;
+	text-decoration: none;
+}
+.StatMarTitSupCol {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+.StatMarTitIzq {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	text-align: right;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	vertical-align: top;
+	background-color: #E8E8E8;
+	min-width:190px;
+}
+.StatMarSumaIzq {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	text-align: right;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	vertical-align: top;
+	background-color: #E8E8E8;
+}
+
+
+/*----------------------------------------------------------------------*/
+/* STAT: Estilos para resultados de estadísticas CRUCES                 */ 
+/*----------------------------------------------------------------------*/
+.StatCruTabla {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:white;
+	table-layout:fixed;
+}
+.StatCruTitSup {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	background-image: url(../img/fnd_tituloslistados1_sup.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding: 0px;
+	text-align: center;
+	background-color: #C0B9DA;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.StatCruTitSupVar2 {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	background-color: #EEE8AA;
+	font-weight: bold;
+	text-decoration: none;
+}
+.StatCruTitSupVar {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	background-color: #E8E8E8;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.StatCruTitSupCol {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	min-width:100px;
+	width:100px;
+	
+}
+
+.StatCruTitVarIzq {
+	writing-mode: tb-rl;
+	filter: flipv fliph;
+	background-color: #C0B9DA;
+	border: 1px solid #C0B9DA;
+	background-image: url(../img/fnd_tituloslistados1_izq.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	vertical-align: middle;
+	width:50px;
+}
+.StatCruTitIzq {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	text-align: right;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	vertical-align: top;
+	background-color: #E8E8E8;
+	width:200px;
+}
+/*----------------------------------------------------------------------*/
+/* STAT: Estilos para resultados de estadísticas general                */ 
+/*----------------------------------------------------------------------*/
+.StatMediaDato {
+	text-align: center;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C0B9DA;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #C0B9DA;
+	background-color: #EEE8AA;
+}
+.StatSumaDato {
+	background-color: #DCDCDC;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C0B9DA;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #C0B9DA;
+}
+.StatDato {
+	text-align: center;
+	border: 1px solid #C0B9DA;
+}</style>
+<body><table border=0>
+	<tr>
+		<td colspan=5><b>VALUES SURVEY DATABANK</b></td>
+	</tr>
+	<tr>
+		<td colspan=5><b><font color=green><i>Selected countries/samples: Andorra [2005], Argentina [2006], Australia [2005], Brazil [2006], Bulgaria [2006], Burkina Faso [2007], Canada [2006], Colombia [2005], Cyprus [2006], Chile [2006], China [2007], Egypt [2008], Ethiopía [2007], Finland [2005], France [2006], Georgia [2008], Germany [2006], Ghana [2007], Great Britain [2006], Guatemala [2004], Hong Kong, China [2005], India [2006], Indonesia [2006], Irak [2006], Iran [2005], Italy [2005], Japan [2005], Jordan [2007], Malaysia [2006], Mali [2007], Mexico [2005], Moldova [2006], Morocco [2007], Netherlands [2006], New Zealand [2004], Norway [2007], Peru [2006], Poland [2005], Romania [2005], Russian Federation [2006], Rwanda [2007], Serbia [2006], Slovenia [2005], South Africa [2007], South Korea [2005], Spain [2007], Sweden [2006], Switzerland [2007], Taiwan [2006], Thailand [2007], Trinidad and Tobago [2006], Turkey [2007], Ukraine [2006], United States [2006], Uruguay [2006], Viet Nam [2006], Zambia [2007]</i></font></b></td>
+	</tr>
+	</table>
+					<img src="http://www.wvsevsdb.com/wvs/imgChart/chart1391115903560685.gif" usemap="#map1" border="0"><map name="map1"><area shape="rect" coords="86,164,87,280" title="No formal education: 15.5 ">
+<area shape="rect" coords="83,193,84,280" title="No formal education: 11.6 ">
+<area shape="rect" coords="80,219,81,280" title="No formal education: 8.2 ">
+<area shape="rect" coords="77,233,78,280" title="No formal education: 6.3 ">
+<area shape="rect" coords="74,216,75,280" title="No formal education: 8.5 ">
+<area shape="rect" coords="71,125,72,280" title="No formal education: 20.6 ">
+<area shape="rect" coords="68,178,69,280" title="No formal education: 13.6 ">
+<area shape="rect" coords="65,231,66,280" title="No formal education: 6.6 ">
+<area shape="rect" coords="62,237,63,280" title="No formal education: 5.7 ">
+<area shape="rect" coords="59,225,60,280" title="No formal education: 7.3 ">
+<area shape="rect" coords="133,186,134,280" title="Inadequately completed elementary education: 12.6 ">
+<area shape="rect" coords="130,198,131,280" title="Inadequately completed elementary education: 10.9 ">
+<area shape="rect" coords="127,222,128,280" title="Inadequately completed elementary education: 7.8 ">
+<area shape="rect" coords="124,225,125,280" title="Inadequately completed elementary education: 7.4 ">
+<area shape="rect" coords="121,218,122,280" title="Inadequately completed elementary education: 8.3 ">
+<area shape="rect" coords="118,187,119,280" title="Inadequately completed elementary education: 12.4 ">
+<area shape="rect" coords="115,201,116,280" title="Inadequately completed elementary education: 10.5 ">
+<area shape="rect" coords="112,241,113,280" title="Inadequately completed elementary education: 5.2 ">
+<area shape="rect" coords="109,251,110,280" title="Inadequately completed elementary education: 3.9 ">
+<area shape="rect" coords="106,239,107,280" title="Inadequately completed elementary education: 5.5 ">
+<area shape="rect" coords="180,145,181,280" title="Completed (compulsory) elementary education: 18 ">
+<area shape="rect" coords="177,155,178,280" title="Completed (compulsory) elementary education: 16.7 ">
+<area shape="rect" coords="174,165,175,280" title="Completed (compulsory) elementary education: 15.3 ">
+<area shape="rect" coords="171,160,172,280" title="Completed (compulsory) elementary education: 16 ">
+<area shape="rect" coords="168,162,169,280" title="Completed (compulsory) elementary education: 15.8 ">
+<area shape="rect" coords="165,151,166,280" title="Completed (compulsory) elementary education: 17.2 ">
+<area shape="rect" coords="162,147,163,280" title="Completed (compulsory) elementary education: 17.7 ">
+<area shape="rect" coords="159,179,160,280" title="Completed (compulsory) elementary education: 13.5 ">
+<area shape="rect" coords="156,194,157,280" title="Completed (compulsory) elementary education: 11.5 ">
+<area shape="rect" coords="153,180,154,280" title="Completed (compulsory) elementary education: 13.4 ">
+<area shape="rect" coords="226,240,227,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 5.4 ">
+<area shape="rect" coords="223,223,224,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 7.6 ">
+<area shape="rect" coords="220,224,221,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 7.5 ">
+<area shape="rect" coords="217,223,218,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 7.6 ">
+<area shape="rect" coords="214,224,215,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 7.5 ">
+<area shape="rect" coords="211,228,212,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 6.9 ">
+<area shape="rect" coords="208,235,209,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 6 ">
+<area shape="rect" coords="205,233,206,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 6.3 ">
+<area shape="rect" coords="202,241,203,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 5.2 ">
+<area shape="rect" coords="199,236,200,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 5.9 ">
+<area shape="rect" coords="273,187,274,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 12.4 ">
+<area shape="rect" coords="270,147,271,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 17.7 ">
+<area shape="rect" coords="267,150,268,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 17.4 ">
+<area shape="rect" coords="264,147,265,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 17.7 ">
+<area shape="rect" coords="261,150,262,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 17.4 ">
+<area shape="rect" coords="258,227,259,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 7.1 ">
+<area shape="rect" coords="255,172,256,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 14.4 ">
+<area shape="rect" coords="252,156,253,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 16.6 ">
+<area shape="rect" coords="249,153,250,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 16.9 ">
+<area shape="rect" coords="246,158,247,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 16.3 ">
+<area shape="rect" coords="320,212,321,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 9.1 ">
+<area shape="rect" coords="317,228,318,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 6.9 ">
+<area shape="rect" coords="314,224,315,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.5 ">
+<area shape="rect" coords="311,222,312,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.7 ">
+<area shape="rect" coords="308,224,309,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.5 ">
+<area shape="rect" coords="305,216,306,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 8.6 ">
+<area shape="rect" coords="302,214,303,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 8.8 ">
+<area shape="rect" coords="299,224,300,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.5 ">
+<area shape="rect" coords="296,225,297,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.3 ">
+<area shape="rect" coords="293,223,294,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.6 ">
+<area shape="rect" coords="366,171,367,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 14.5 ">
+<area shape="rect" coords="363,164,364,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 15.5 ">
+<area shape="rect" coords="360,153,361,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 17 ">
+<area shape="rect" coords="357,141,358,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 18.5 ">
+<area shape="rect" coords="354,152,355,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 17.1 ">
+<area shape="rect" coords="351,202,352,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 10.4 ">
+<area shape="rect" coords="348,170,349,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 14.7 ">
+<area shape="rect" coords="345,156,346,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 16.5 ">
+<area shape="rect" coords="342,153,343,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 17 ">
+<area shape="rect" coords="339,157,340,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 16.4 ">
+<area shape="rect" coords="413,246,414,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 4.5 ">
+<area shape="rect" coords="410,244,411,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 4.8 ">
+<area shape="rect" coords="407,233,408,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 6.3 ">
+<area shape="rect" coords="404,232,405,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 6.4 ">
+<area shape="rect" coords="401,235,402,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 6 ">
+<area shape="rect" coords="398,243,399,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 4.9 ">
+<area shape="rect" coords="395,246,396,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 4.6 ">
+<area shape="rect" coords="392,215,393,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 8.7 ">
+<area shape="rect" coords="389,205,390,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 10 ">
+<area shape="rect" coords="386,216,387,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 8.6 ">
+<area shape="rect" coords="460,220,461,280" title="University with degree/Higher education - upper-level tertiary certificate: 8 ">
+<area shape="rect" coords="457,217,458,280" title="University with degree/Higher education - upper-level tertiary certificate: 8.4 ">
+<area shape="rect" coords="454,182,455,280" title="University with degree/Higher education - upper-level tertiary certificate: 13.1 ">
+<area shape="rect" coords="451,186,452,280" title="University with degree/Higher education - upper-level tertiary certificate: 12.5 ">
+<area shape="rect" coords="448,190,449,280" title="University with degree/Higher education - upper-level tertiary certificate: 12 ">
+<area shape="rect" coords="445,192,446,280" title="University with degree/Higher education - upper-level tertiary certificate: 11.8 ">
+<area shape="rect" coords="442,207,443,280" title="University with degree/Higher education - upper-level tertiary certificate: 9.7 ">
+<area shape="rect" coords="439,137,440,280" title="University with degree/Higher education - upper-level tertiary certificate: 19.1 ">
+<area shape="rect" coords="436,110,437,280" title="University with degree/Higher education - upper-level tertiary certificate: 22.6 ">
+<area shape="rect" coords="433,137,434,280" title="University with degree/Higher education - upper-level tertiary certificate: 19.1 ">
+</map>
+				<br>Source: Values Surveys Databank</body>
+</html>

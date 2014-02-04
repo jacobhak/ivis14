@@ -6,10 +6,10 @@ var margin = 200;
 var edu = ["No formal education","inadequate education","compl compulsory education","Incomplete secondary school: technical/vocational type","Complete secondary school: technical/vocational type ","Incomplete secondary: university-preparatory type","Complete secondary: university-preparatory type","Some university without degree", "University with degree"];
 
 var svg=d3.select("body").append("svg").attr("width",width).attr("height",height);
-var x=d3.scale.linear().domain([0,3]).range([margin,width-margin]);
+var x=d3.scale.linear().domain([0,1000]).range([margin,width-margin]);
 var y=d3.scale.ordinal().domain(edu).rangeBands([height-margin,margin]);
 //var r=d3.scale.linear().domain([0,10]).range([0,10]);
-var c=d3.scale.category10().domain(["Can´t be too careful", "Most people can be trusted"]);
+var c=d3.scale.category10().domain(["Need to  be very careful", "Most people can be trusted"]);
 //d3.scale.ordinal().domain(["Can´t be too careful", "Most people can be trusted"]).range([margin,width-margin]); range([height-margin,margin]);
 var xAxis = d3.svg.axis().scale(x).orient("bottom");
 
@@ -44,7 +44,7 @@ svg.selectAll(".v").data(d3.range(1,5)).enter()
 
 
 var dsv = d3.dsv(";", "text/plain");
-dsv("test.csv",function(csv) {
+dsv("xaa",function(csv) {
   // we first sort the data
 //  csv.sort(function(a,b) {return b.population-a.population;});
 //    csv.forEach(function(d){
@@ -64,9 +64,9 @@ dsv("test.csv",function(csv) {
 
     svg.selectAll("circle").data(csv).enter()
 	.append("circle")
-	.attr("cx",function(d) {return x(d["Original respondent number  "]);})
+	.attr("cx",function(d) {return x(d["Interview number"]);})
 	.attr("cy",function(d) {return y(d["Highest educational level attained  "]);})
 	.attr("r",function(d) {return 3;})
-	.attr("fill", function(d) {return c(d["Most people can be trusted  "]);})
+	.attr("fill", function(d) {return c(d["Dealing with people "]);})
 	.attr("opacity", 0.5)
 });

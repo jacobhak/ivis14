@@ -1,0 +1,234 @@
+<html>
+<style>
+/*----------------------------------------------------------------------*/
+/* STAT: Estilos para resultados de estadísticas MARGINALES             */ 
+/*----------------------------------------------------------------------*/
+
+
+.StatMarTabla {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:white;
+	table-layout:fixed;
+}
+.StatMarTitSupIzq {
+	border-top-width: 0px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+	border-top-style: none;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-right-color: #8980A7;
+	border-bottom-color: #8980A7;
+	font-weight: bold;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.StatMarTitSupVar {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	background-color: #E8E8E8;
+	font-weight: bold;
+	text-decoration: none;
+}
+.StatMarTitSupCol {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	
+}
+.StatMarTitIzq {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	text-align: right;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	vertical-align: top;
+	background-color: #E8E8E8;
+	min-width:190px;
+}
+.StatMarSumaIzq {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	text-align: right;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 5px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+	vertical-align: top;
+	background-color: #E8E8E8;
+}
+
+
+/*----------------------------------------------------------------------*/
+/* STAT: Estilos para resultados de estadísticas CRUCES                 */ 
+/*----------------------------------------------------------------------*/
+.StatCruTabla {
+	margin: 0px;
+	padding: 0px;
+	border: 1px solid #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	background-color:white;
+	table-layout:fixed;
+}
+.StatCruTitSup {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	background-image: url(../img/fnd_tituloslistados1_sup.gif);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	padding: 0px;
+	text-align: center;
+	background-color: #C0B9DA;
+	font-weight: bold;
+	color: #000000;
+	text-decoration: none;
+}
+.StatCruTitSupVar2 {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	background-color: #EEE8AA;
+	font-weight: bold;
+	text-decoration: none;
+}
+.StatCruTitSupVar {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	background-color: #E8E8E8;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.StatCruTitSupCol {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	padding: 0px;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: none;
+	min-width:100px;
+	width:100px;
+	
+}
+
+.StatCruTitVarIzq {
+	writing-mode: tb-rl;
+	filter: flipv fliph;
+	background-color: #C0B9DA;
+	border: 1px solid #C0B9DA;
+	background-image: url(../img/fnd_tituloslistados1_izq.gif);
+	background-repeat: repeat-y;
+	background-position: right;
+	text-align: center;
+	font-weight: bold;
+	color: #000000;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 2px;
+	vertical-align: middle;
+	width:50px;
+}
+.StatCruTitIzq {
+	margin: 0px;
+	border: 1px solid #C0B9DA;
+	text-align: right;
+	text-decoration: none;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 0px;
+	padding-left: 2px;
+	vertical-align: top;
+	background-color: #E8E8E8;
+	width:200px;
+}
+/*----------------------------------------------------------------------*/
+/* STAT: Estilos para resultados de estadísticas general                */ 
+/*----------------------------------------------------------------------*/
+.StatMediaDato {
+	text-align: center;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C0B9DA;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #C0B9DA;
+	background-color: #EEE8AA;
+}
+.StatSumaDato {
+	background-color: #DCDCDC;
+	font-weight: bold;
+	text-align: center;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #C0B9DA;
+	border-right-color: #FFFFFF;
+	border-bottom-color: #FFFFFF;
+	border-left-color: #C0B9DA;
+}
+.StatDato {
+	text-align: center;
+	border: 1px solid #C0B9DA;
+}</style>
+<body><table border=0>
+	<tr>
+		<td colspan=5><b>VALUES SURVEY DATABANK</b></td>
+	</tr>
+	<tr>
+		<td colspan=5><b><font color=green><i>Selected countries/samples: Andorra [2005], Argentina [2006], Australia [2005], Brazil [2006], Bulgaria [2006], Burkina Faso [2007], Canada [2006], Colombia [2005], Cyprus [2006], Chile [2006], China [2007], Egypt [2008], Ethiopía [2007], Finland [2005], France [2006], Georgia [2008], Germany [2006], Ghana [2007], Great Britain [2006], Guatemala [2004], Hong Kong, China [2005], India [2006], Indonesia [2006], Irak [2006], Iran [2005], Italy [2005], Japan [2005], Jordan [2007], Malaysia [2006], Mali [2007], Mexico [2005], Moldova [2006], Morocco [2007], Netherlands [2006], New Zealand [2004], Norway [2007], Peru [2006], Poland [2005], Romania [2005], Russian Federation [2006], Rwanda [2007], Serbia [2006], Slovenia [2005], South Africa [2007], South Korea [2005], Spain [2007], Sweden [2006], Switzerland [2007], Taiwan [2006], Thailand [2007], Trinidad and Tobago [2006], Turkey [2007], Ukraine [2006], United States [2006], Uruguay [2006], Viet Nam [2006], Zambia [2007]</i></font></b></td>
+	</tr>
+	</table>
+					<img src="http://www.wvsevsdb.com/wvs/imgChart/chart1391115903560686.gif" usemap="#map1" border="0"><map name="map1"><area shape="rect" coords="76,193,90,280" title="No formal education: 8.5 ">
+<area shape="rect" coords="56,204,70,280" title="No formal education: 7.4 ">
+<area shape="rect" coords="123,194,137,280" title="Inadequately completed elementary education: 8.4 ">
+<area shape="rect" coords="103,224,117,280" title="Inadequately completed elementary education: 5.5 ">
+<area shape="rect" coords="170,118,184,280" title="Completed (compulsory) elementary education: 15.8 ">
+<area shape="rect" coords="150,143,164,280" title="Completed (compulsory) elementary education: 13.4 ">
+<area shape="rect" coords="216,203,230,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 7.5 ">
+<area shape="rect" coords="196,219,210,280" title="Incomplete secondary school: technical/vocational type/(Compulsory) elementary education and basic vocational qualification: 6 ">
+<area shape="rect" coords="263,102,277,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 17.4 ">
+<area shape="rect" coords="243,113,257,280" title="Complete secondary school: technical/vocational type/Secondary, intermediate vocational qualification: 16.3 ">
+<area shape="rect" coords="310,203,324,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.5 ">
+<area shape="rect" coords="290,202,304,280" title="Incomplete secondary: university-preparatory type/Secondary, intermediate general qualification: 7.6 ">
+<area shape="rect" coords="356,105,370,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 17.1 ">
+<area shape="rect" coords="336,112,350,280" title="Complete secondary: university-preparatory type/Full secondary, maturity level certificate: 16.4 ">
+<area shape="rect" coords="403,219,417,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 6 ">
+<area shape="rect" coords="383,192,397,280" title="Some university without degree/Higher education - lower-level tertiary certificate: 8.6 ">
+<area shape="rect" coords="450,157,464,280" title="University with degree/Higher education - upper-level tertiary certificate: 12 ">
+<area shape="rect" coords="430,86,444,280" title="University with degree/Higher education - upper-level tertiary certificate: 19 ">
+</map>
+				<br>Source: Values Surveys Databank</body>
+</html>
