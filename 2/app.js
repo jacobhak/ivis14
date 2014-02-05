@@ -21,6 +21,7 @@ var yAxis = d3.svg.axis()
     })
     .orient("left")
 
+var lol;
 
 svg.append("g")
   .attr("class", "axis")
