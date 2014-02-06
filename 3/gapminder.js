@@ -2,6 +2,8 @@ var CO2_URL = "https://spreadsheets.google.com/spreadsheet/pub?key=0ArfEDsV3bBwC
 var CO2 = "co2";
 var COAL_URL = 'https://spreadsheets.google.com/pub?key=0Auk0ddvGIrGqcHlqNnRTY1pxbUVka1hObHlPbTlmUUE';
 var COAL = "coal";
+var DATA_URLS = [CO2_URL, COAL_URL];
+var DATA_NAMES = [CO2, COAL];
 
 var dataTables = {};
 var requestsSent = 0;
@@ -32,12 +34,12 @@ function drawChart() {
 }
 
 function sendDataRequests() {
-  var query = new google.visualization.Query(CO2_URL);
-  query.send(addDataCheckIfFinishedFactory(CO2));
-  requestsSent++;
-  query = new google.visualization.Query(COAL_URL);
-  query.send(addDataCheckIfFinishedFactory(COAL));
-  requestsSent++;
+  var query;
+  for(var i = 0; i < DATA_URLS.length; i++) {
+    query = new google.visualization.Query(DATA_URLS[i]);
+    query.send(addDataCheckIfFinishedFactory(DATA_NAMES[i]));
+    requestsSent++;
+  }
 }
 
 function addDataCheckIfFinishedFactory(tableName) {
