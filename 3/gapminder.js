@@ -14,18 +14,24 @@ function main(){
   google.setOnLoadCallback(sendDataRequests);
 }
 
+var options;
+var chart;
+var view;
 function drawChart() {
-  var view = new google.visualization.DataView(dataTables[CO2]);
+  view = new google.visualization.DataView(dataTables[CO2]);
   view.setRows( dataTables[CO2].getFilteredRows([
     {column: 100, minValue: 0.0}, {column:101, minValue: 0.0}
   ]));//[0, 100,101]);
   view.setColumns([0,100,101]);
   view.hideRows([0]);
-  var chart = new google.visualization.BubbleChart(document.getElementById('chart'));
-  var options = {
+  chart = new google.visualization.BubbleChart(document.getElementById('chart'));
+  options = {
     hAxis: {title: dataTables[CO2].getValue(0,100)},
     vAxis: {title: dataTables[CO2].getValue(0,101)},
-    explorer:{}
+    explorer:{},
+    animation: {
+      duration: 500
+    }
   };
   chart.draw(view, options);
   var table = new google.visualization.Table(document.getElementById('table'));
@@ -33,12 +39,34 @@ function drawChart() {
 
 }
 
+function setHAxisZoom(zoomValue) {
+  options.hAxis["viewWindowMode"] = 'explicit';
+  options.hAxis["viewWindow"] = {max: zoomValue, min: -zoomValue};
+  options.vAxis["viewWindowMode"] = 'explicit';
+  options.vAxis["viewWindow"] = {
+    max: getCurrentVAxisMax(),
+    min: getCurrentVAxisMin()
+  };
+  chart.draw(view, options);
+}
+
+function getCurrentVAxisMin() {
+  return chart.getChartLayoutInterface().getVAxisValue(0);
+}
+
+function getCurrentVAxisMax() {
+  var cli = chart.getChartLayoutInterface();
+  return cli.getVAxisValue(
+    cli.getChartAreaBoundingBox().height);
+}
+
 function sendDataRequests() {
   var query;
   for(var i = 0; i < DATA_URLS.length; i++) {
     query = new google.visualization.Query(DATA_URLS[i]);
-    query.send(addDataCheckIfFinishedFactory(DATA_NAMES[i]));
     requestsSent++;
+    query.send(addDataCheckIfFinishedFactory(DATA_NAMES[i]));
+
   }
 }
 
