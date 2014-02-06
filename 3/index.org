@@ -1,0 +1,7 @@
+3rd Week of Information Visualization.
+
+* Impression on material
+
+* Critique of Gapminder
+
+* Fixing Gapminder
