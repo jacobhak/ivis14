@@ -16,10 +16,23 @@ function drawChart() {
   query.send(handleQueryResponse);
   // Create our data table.
 }
-
+var view;
 function handleQueryResponse(response) {
   var data = response.getDataTable();
-  var chart = new google.visualization.Table(document.getElementById('chart'));
-  chart.draw(data, null);
+  view = new google.visualization.DataView(data);
+  view.setRows( data.getFilteredRows([
+    {column: 100, minValue: 0.0}, {column:101, minValue: 0.0}
+  ]));//[0, 100,101]);
+  view.setColumns([0,100,101]);
+  view.hideRows([0]);
+  var chart = new google.visualization.BubbleChart(document.getElementById('chart'));
+  var options = {
+    hAxis: {title: data.getValue(0,100)},
+    vAxis: {title: data.getValue(0,101)},
+    explorer:{}
+  };
+  chart.draw(view, options);
+  var table = new google.visualization.Table(document.getElementById('table'));
+  table.draw(view,null);
 }
 main();
